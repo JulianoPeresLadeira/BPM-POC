@@ -22,6 +22,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework:spring-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation(files("../bpm-domain/build/libs/bpm-domain-1.0-SNAPSHOT.jar"))
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
